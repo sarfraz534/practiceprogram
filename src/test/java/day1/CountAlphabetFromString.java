@@ -3,7 +3,7 @@ package day1;
 public class CountAlphabetFromString {
 
 	public static void main(String[] args) {
-		// count howmany time a alphabet get
+		// count how many time a alphabet get
 
 		String name="Sarfraz Ahmad";
 		int count=0;
