@@ -16,7 +16,7 @@ public class ScreenShot {
 		WebDriver driver= new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(Duration.ZERO.ofSeconds(10));
 		driver.get("https://www.selenium.dev/selenium/docs/api/java/org/openqa/selenium/hq");
-		
+	
 		TakesScreenshot sc=(TakesScreenshot)driver;  //create variable for TakesScreenshot and passing driver into it.
 		File src=sc.getScreenshotAs(OutputType.FILE); //to capture screenshot and store in to src file 
 		File target=new File(System.getProperty("user.dir")+"\\screenshot\\abc1.png");     //instance create file class passing address of  

@@ -1,18 +1,27 @@
-package day1;
+package programList;
 
 public class CountAlphabetFromString {
 
 	public static void main(String[] args) {
 		// count how many time a alphabet get
 
-		String name="Sarfraz Ahmad";
+		String name="Sarfraz Ahmaaaad";
 		int count=0;
-		char b[]=name.toCharArray();
-		for(char alpha:b)
+		char b[]= name.toCharArray();
+		for(int i=0; i<b.length;i++)
 		{
-			if(alpha=='a'||alpha=='A')
-			count++;
+			if(b[i]=='a') {
+				count++;
+			}
 		}
+			
+//		int count=0;
+//		char b[]=name.toCharArray();
+//		for(char alpha:b)
+//		{
+//			if(alpha=='a'||alpha=='A')
+//			count++;
+//		}
 		System.out.println(count);
 		
 		

@@ -1,4 +1,4 @@
-package day1;
+package programList;
 
 public class StringISEmpty {
 
