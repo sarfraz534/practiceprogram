@@ -32,13 +32,18 @@ package programList;
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		B b=new B();
+		B bb=new B();
 		
-		int c=b.method(4, 2);
-		System.out.println(c);
-		B b1=new C();
-		int c1=b1.method(4, 2);
+		int b1=bb.method(4, 2);
+		System.out.println(b1);
+		//overridden
+		B b=new C();
+		int c1=b.method(4, 2);
 		System.out.println(c1);
+		
+		C cc=new C();
+		System.out.println(cc.method(4,2));
+		System.out.println(cc.method2(10));
 	}
 
 }
